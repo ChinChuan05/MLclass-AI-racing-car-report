@@ -77,7 +77,7 @@
 
   ![image.png](https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/4.1.PNG?raw=true)
 
-![image.png](images/https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/4.2.PNG?raw=true)
+![image.png](https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/4.2.PNG?raw=true)
 **總結：**（１）具專注理想走線的精度學習
 　　　（２）整合路線偏差、速度、出界檢查與路段特化，設計完整
 
