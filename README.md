@@ -42,6 +42,7 @@
 * **目標：能夠正常行駛**
 
 ![image.png](https://raw.githubusercontent.com/ChinChuan05/MLclass-AI-racing-car-report/refs/heads/master/1.1.PNG)
+
 **總結：**（１）避免完全為 0 的獎勵，讓強化學習模型仍能獲得微弱的回饋
 
 　　　（２）車輛與中心線距離至少還有 5 公分的緩衝區，避免貼邊行駛
@@ -65,6 +66,7 @@
 **目標：提升整體速度與穩定性**
 
 ![image.png](https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/3.1.PNG?raw=true)
+
 **總結：**（１）可以讓車輛學習貼近最佳走線
 
 　　　（２）是更貼近專業賽車手概念的 reward 設計邏輯。
@@ -78,6 +80,7 @@
   ![image.png](https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/4.1.PNG?raw=true)
 
 ![image.png](https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/4.2.PNG?raw=true)
+
 **總結：**（１）具專注理想走線的精度學習
 　　　（２）整合路線偏差、速度、出界檢查與路段特化，設計完整
 
@@ -94,6 +97,7 @@
 *此段為方向懲罰*
 
 ![image.png](https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/5.3.PNG?raw=true)
+
 **總結：**（１）透過多層次判斷邏輯來細緻獎勵車輛行為，是一個典型的手工微調式 DeepRacer 獎勵函數，適用　　　　　　　　
 
 　　　　　　於進階車手針對特定賽道進行高效訓練與優化。
@@ -120,6 +124,7 @@
 　　　　　　右側等），並根據區段調整速度與轉向的獎勵/懲罰。
 
 ![image.png](https://github.com/ChinChuan05/MLclass-AI-racing-car-report/blob/master/pic.PNG?raw=true)
+
 *平均完成時間約為9秒*
 
 ---
@@ -130,4 +135,4 @@
 
 此外我深有體會強化學習中「設計目標」的重要性。這段程式透過明確定義最佳行車路徑、不同區段的速度限制與車輛位置，讓模型能在訓練過程中逐步優化行駛策略，進而提升整體表現。特別是手動標記不同賽道特性的方法，讓我理解到即使是自動化訓練，也需要人為的經驗判斷與策略設計。整體而言，這段程式不僅展示了強化學習在實務應用上的靈活性，也讓我意識到 reward function 的細節往往是影響模型成效的關鍵。
 
-**完成時間進步：**35->33->23->18->9(S)
+**完成時間進步：** 35->33->23->18->9(S)
